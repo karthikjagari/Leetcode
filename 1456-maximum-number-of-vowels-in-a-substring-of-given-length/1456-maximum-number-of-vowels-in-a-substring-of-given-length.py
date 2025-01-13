@@ -14,11 +14,11 @@ class Solution:
         # Slide the window across the string
         for i in range(k, len(s)):
             # Remove the character that's leaving the window
-            if s[i - k] in vowels:  # If the outgoing character is a vowel
+            if s[i - k] == 'a' or s[i - k] == 'e' or s[i - k] == 'i' or s[i - k] == 'o' or s[i - k] == 'u':  # If the outgoing character is a vowel
                 current_vowels -= 1
             
             # Add the character that's entering the window
-            if s[i] in vowels:  # If the incoming character is a vowel
+            if s[i] == 'a' or s[i] == 'e' or s[i] == 'i' or s[i] == 'o' or s[i] == 'u':  # If the incoming character is a vowel
                 current_vowels += 1
             
             # Update the maximum vowels found so far
