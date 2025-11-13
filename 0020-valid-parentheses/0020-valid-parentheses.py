@@ -1,13 +1,14 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
-        closeToOpen = { ")" : "(", "]" : "[", "}":"{" }
-        for c in s:
-            if c in closeToOpen:
-                if stack and stack[-1] == closeToOpen[c]:
-                    stack.pop()
-                else:
+        mapping = {')': '(', ']': '[', '}': '{'}  # Matching pairs
+
+        for ch in s:
+            if ch in mapping:  # It's a closing bracket
+                top_element = stack.pop() if stack else '#'
+                if mapping[ch] != top_element:
                     return False
-            else:
-                stack.append(c)
-        return True if not stack else False
+            else:  # It's an opening bracket
+                stack.append(ch)
+        
+        return not stack  # True if stack is empty (all matched)
