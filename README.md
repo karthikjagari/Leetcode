@@ -27,10 +27,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/karthikjagari/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/karthikjagari/Leetcode/tree/master/0054-spiral-matrix) |
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/karthikjagari/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/karthikjagari/Leetcode/tree/master/0054-spiral-matrix) |
 ## Simulation
 |  |
@@ -56,4 +58,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/karthikjagari/Leetcode/tree/master/0100-same-tree) |
+## Math
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/karthikjagari/Leetcode/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
