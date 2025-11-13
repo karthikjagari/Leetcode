@@ -15,4 +15,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/karthikjagari/Leetcode/tree/master/0242-valid-anagram) |
+## Linked List
+|  |
+| ------- |
+| [0203-remove-linked-list-elements](https://github.com/karthikjagari/Leetcode/tree/master/0203-remove-linked-list-elements) |
+## Recursion
+|  |
+| ------- |
+| [0203-remove-linked-list-elements](https://github.com/karthikjagari/Leetcode/tree/master/0203-remove-linked-list-elements) |
 <!---LeetCode Topics End-->
