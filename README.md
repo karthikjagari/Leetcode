@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/karthikjagari/Leetcode/tree/master/0048-rotate-image) |
+| [0670-maximum-swap](https://github.com/karthikjagari/Leetcode/tree/master/0670-maximum-swap) |
 ## Backtracking
 |  |
 | ------- |
@@ -73,4 +74,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/karthikjagari/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Greedy
+|  |
+| ------- |
+| [0670-maximum-swap](https://github.com/karthikjagari/Leetcode/tree/master/0670-maximum-swap) |
 <!---LeetCode Topics End-->
